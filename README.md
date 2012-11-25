@@ -1,14 +1,14 @@
 QuTcPdf 1.0.0
 ========================
 
-ZF2 module for QuTcPdf
+ZF2 module for TcPdf
 
 Release Notes
 ========================
 
 1.0.0:
 
-- Initiation CKEditor in zf2
+- Initiation TcPdf in zf2
 
 Requirements
 ========================
@@ -17,7 +17,7 @@ Requirements
 Installation
 ========================
 - Drag a folder into modules folder or vendor folder
-- Enable the module application.config.php and configure the routes module.config.php
+- Enable the module application.config.php
 
 Integration
 ========================
