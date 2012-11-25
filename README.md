@@ -1,9 +1,6 @@
 QuTcPdf 1.0.0
 ========================
 
-<<<<<<< HEAD
-Zf2 module for TcPdf
-=======
 ZF2 module for QuTcPdf
 
 Release Notes
@@ -24,14 +21,13 @@ Installation
 
 Integration
 ========================
-´´´php
+```php
   $sm  = $this->getServiceLocator();
   $pdf = $sm->get('QuTcPdf');
   $pdf = $pdf->MyPdf();
   $pdf->Output('test.pdf','I');
-´´´
+```
 
 References usage and conditions in TcPdf
 ========================
 - View read me in QuTcPdf/src/TcPdf
->>>>>>> update
