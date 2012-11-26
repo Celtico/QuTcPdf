@@ -1,22 +1,15 @@
 {
-    "name": "qu/tcpdf",
+    "name": "qu-modules/qu-tcpdf",
     "description": "ZF2 module for TcPdf",
     "type": "module",
-    "version":"1.0.0-dev",
-    "keywords": [
-        "tcpdf",
-        "pdf",
-        "zf2",
-        "module"
-    ],
-
+    "version":"0.0.1-dev",
+    "keywords": ["tcpdf","pdf","zf2","module"],
     "homepage": "https://github.com/Celtico/QuTcPdf",
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*"
     },
-
     "authors": [
         {
             "name": "Cel Ticó Petit",
@@ -25,8 +18,15 @@
             "role": "Developer"
         }
     ],
-
     "support": {
         "email": "cel@cenics.net"
+    },
+    "autoload": {
+        "psr-0": {
+            "QuTcPdf": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
     }
 }

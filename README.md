@@ -1,4 +1,4 @@
-QuTcPdf 1.0.0
+QuTcPdf 0.0.1-dev:
 ========================
 
 ZF2 module for TcPdf
@@ -6,7 +6,7 @@ ZF2 module for TcPdf
 Release Notes
 ========================
 
-1.0.0-dev:
+0.0.1-dev:
 
 - Initiation TcPdf in zf2
 
@@ -19,11 +19,18 @@ Installation
 - Drag a folder into modules folder or vendor folder
 - Enable the module application.config.php
 
-### Composer / Packagist
-```
-% composer.phar require qu/elfinder
-Please provide a version constraint for the qu/elfinder requirement: 1.0.0-dev
-```
+Installation by Composer
+========================
+
+In my experience, to avoid errors
+
+- cd /Users/YourName/Desktop/YourFolderProject/
+- /Applications/YourSever/bin/php/php5.3.6/bin/php /Users/YourName/Desktop/YourFolderProject/composer.phar install
+
+In the errors check and install
+
+- http://git-scm.com/downloads
+- http://getcomposer.org/download
 
 Integration
 ========================
