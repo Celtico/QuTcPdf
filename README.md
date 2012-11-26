@@ -6,7 +6,7 @@ ZF2 module for TcPdf
 Release Notes
 ========================
 
-1.0.0:
+1.0.0-dev:
 
 - Initiation TcPdf in zf2
 
@@ -18,6 +18,12 @@ Installation
 ========================
 - Drag a folder into modules folder or vendor folder
 - Enable the module application.config.php
+
+### Composer / Packagist
+```
+% composer.phar require qu/elfinder
+Please provide a version constraint for the qu/elfinder requirement: 1.0.0-dev
+```
 
 Integration
 ========================
