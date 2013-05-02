@@ -37,6 +37,22 @@ Integration
   $sm  = $this->getServiceLocator();
   $pdf = $sm->get('QuTcPdf');
   $pdf = $pdf->MyPdf();
+
+  $pdf->setHeaderData($ln = 0,$lw = 0,$ht = 0,$hs = 0,$tc = array(255,255,255),$lc = array(255,255,255));
+  $pdf->setFooterData($ln = 0,$lw = 0,$ht = 0,$hs = 0,$tc = array(255,255,255),$lc = array(255,255,255));
+  $pdf->setPageOrientation($orientation='P', $autopagebreak='L', $bottommargin=-200);
+
+  foreach($pages as $page){
+
+    $pdf->AddPage();
+
+    //Your function
+    $this->multiPag($pdf,$page);
+
+    $pdf->lastPage();
+
+  }
+
   $pdf->Output('test.pdf','I');
 ```
 
